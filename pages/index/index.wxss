@@ -1,0 +1,49 @@
+.logo {
+  text-align:center;
+  padding-top:50rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #AAA
+}
+.logo image {
+  width: 300rpx;
+  height: 50px;
+}
+
+.search-container {
+  position: relative;
+  top: 30%;
+  border: 1px solid #000;
+  border-radius: 40rpx;
+  color: #FFF;
+  height: 80rpx;
+  margin: 0 80rpx;
+  z-index: 100;
+}
+.search-container input {
+  background: #FFF;
+  color: #AAA;
+  margin: 16rpx 10rpx 16rpx 38rpx;
+  height: 40rpx;
+  width: 80%;
+  border-radius: 8rpx;
+  font-size: 30rpx;
+}
+.search-container image {
+  position: absolute;
+  width: 44rpx;
+  height: 44rpx;
+  z-index: 10;
+  top: 50%;
+  margin-top: -20rpx;
+  right: 40rpx;
+}
+
+/*header*/
+.header {
+  padding: 20rpx 30rpx;
+}
+.header text {
+  color: #A6A6A6;
+  font-size: 35rpx
+}
